@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slider {
+    width: 800px;
+    height: 600px;
+    background-color: #eee;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+}
+.container {
+    position: absolute;
+    display: flex;
+    gap: 70px;
+    left: 50px;
+    transition: 0.5s;
+}
+img {
+    width: 700px;
+}
+.arrows {
+    display: flex;
+    width: 767px;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.arrows i {
+    font-size: 30px;
+}
